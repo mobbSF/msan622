@@ -1,10 +1,10 @@
 MSAN 622 Data Visualization
 ==============================
 
-| **Name**  | [YOUR NAME] |
+| **Name**  | Matt O'Brien |
 |----------:|:------------|
-| **Email** | [USERNAME]@dons.usfca.edu |
+| **Email** | mobrien4@dons.usfca.edu |
 
 ## About Me ##
 
-[BIO: Fill in a brief bio about yourself here. Keep it between 1 and 3 sentences.]
+Hello World!
