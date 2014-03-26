@@ -28,6 +28,7 @@ A few interesting things:
 * I bolded the title.
 * I put a background around the Legend.
 * Another change I made was converting the Budget into millions.  Much more readable.
+
 ----------
 The purpose of the second plot is to:
 > Count the number of action, adventure, etc. movies in the genre column of the movies dataset. Show the results as a bar chart.
@@ -42,6 +43,7 @@ A few interesting things:
 * In retrospect, the diverging palette might not have been the best choice.  It is not the most readable. Since the diverging palette shows extremes at both ends of the data range, I realize now that the 3 bars in the center are all very similar in color, decreasing readability. 
 * Again, I bolded the title.
 * I was considering removing the legend: not sure if it isn't redundant.  In the end I decided to keep it, since I don't think it causes any real harm.
+
 ----------
 The purpose of the third plot is to:
 
@@ -57,6 +59,7 @@ A few interesting things:
 * A qualitative palette worked best, since we are dealing with categorical variables.
 * I kept the bolding of the title, however I skipped the embellishments of the legend.  Not sure if it makes much of a difference either way.
 * Again, Budget is in millions
+
 ----------
 The purpose of the fourth plot is to:
 
