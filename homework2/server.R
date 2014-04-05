@@ -1,6 +1,7 @@
 # server.R  for HW II
 # runApp("DV-app", display.mode = "showcase")
-source("code.R")
+#source("code.R")
+
 
 #install.packages("RColorBrewer")
 library(RColorBrewer)
@@ -84,10 +85,6 @@ getPlot <- function(localFrame, MPAA, genre, colorScheme, dotsize, dotalpha){
       scale_colour_brewer(palette = "Dark2")
   }
 
-  else if (colorScheme == "Default") {
-    localPlot <- localPlot +
-      scale_colour_brewer(palette = "Default")
-  }
 
   else if (colorScheme == "Accent") {
     localPlot <- localPlot +
@@ -110,12 +107,12 @@ getPlot <- function(localFrame, MPAA, genre, colorScheme, dotsize, dotalpha){
   }
   
   else {
-    localPlot <- localPlot +
-      scale_fill_brewer(type = "Default", palette = 1)
+    localPlot <- localPlot #+
+  #    scale_fill_brewer(type = "Default", palette = 1)
   }
 
   localPlot <- localPlot +   labs(x="Buget (in millions)", y="Rating")
-  localPlot <- localPlot + ggtitle("Scatterplot of ratings VS Budget, by Genre")
+  localPlot <- localPlot + ggtitle("Scatterplot of Ratings VS Budget, by Genre")
   localPlot <- localPlot + theme(plot.title = element_text(lineheight=.8, face="bold"))
   localPlot <- localPlot + theme(legend.background = element_rect(fill="gray90", size=.5))
   localPlot
@@ -189,4 +186,4 @@ output$mymap <- renderPlot(
 # runApp()
 
 # To run this remotely, use:
-# runGitHub("lectures", "msan622", subdir = "ShinyDemo/demo1")
+# runGitHub("msan622", "mobbSF", subdir = "homework2")
