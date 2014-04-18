@@ -143,7 +143,7 @@ I also decided to plot by frequency which I feel is more informative, using
 
 Since I chose to plot by frequency, I was curious to see the distribution, so I put together a super quick plot:
 
-<quickplot.png>
+![quickplot](https://github.com/mobbSF/msan622/blob/master/homework4/quickplot.png?raw=true)
 
 ...which told me that the first 100 or so terms looked very frequent.  With this in mind, I realized that it might be a good idea to plot a sizeable number of words, since most of them will be small.  Thus I chose to plot 100 words.  I feel this was a good choice.
 
