@@ -1,17 +1,12 @@
-#setwd("/home/matt/Dropbox/Data_Vis/finalproj")
-#setwd("C:/Users/mobb/Dropbox/Data_Vis/finalproj")
-
-#setwd("/users/matto/Dropbox/Data_Vis/finalproj")
-
 shinyUI(pageWithSidebar(
   
   
-  headerPanel("MSAN 622: Data Visualization"),
+  headerPanel("Data Science Jobs in the US"),
   
   sidebarPanel( width=2,
     list(HTML('<img src="http://www.gadsden.info/i/clipart/American-flag-icon.gif"/>')),
     br(),
-    print("Data Science Jobs in the US"),
+#    print("Data Science Jobs in the US"),
     br(),
     tags$hr(),
     checkboxInput("jitter", label = "Jitter?", value = FALSE),
