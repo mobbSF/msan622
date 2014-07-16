@@ -6,7 +6,7 @@ shinyUI(pageWithSidebar(
   sidebarPanel( width=2,
     list(HTML('<img src="http://www.gadsden.info/i/clipart/American-flag-icon.gif"/>')),
     br(),
-#    print("Data Science Jobs in the US"),
+    print("Scraped from a popular online hiring website"),
     br(),
     tags$hr(),
     checkboxInput("jitter", label = "Jitter?", value = FALSE),
