@@ -19,7 +19,7 @@ data(zipcode)
 #DF <- read.csv("~/Dropbox/Data_Vis/finalproj/SH_DS.csv")
 
 #DF <- read.csv("C:/Users/mobb/Dropbox/Data_Vis/finalproj/SH_DS_test.csv")
-DF <- read.csv("C:/Users/mobb/Dropbox/Data_Vis/finalproj/jobs.csv")
+DF <- read.csv("https://github.com/mobbSF/msan622/blob/master/final-project/jobs.csv")
 #DF <- read.csv("/home/matt/Dropbox/Data_Vis/finalproj/SH_DS.csv")
 
 
