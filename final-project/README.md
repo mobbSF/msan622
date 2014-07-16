@@ -2,7 +2,7 @@ Final Project
 ==============================
 
 Matt O'Brien  
-mobrien4@dons.usfca.edu
+mobrien415 at gmail.com
 ------
 # THE PROJECT:  
 Using data from a popular job search website, I gathered a set of 2036 jobs for positions open for individuals proficient in data science. 
@@ -12,7 +12,7 @@ The fields in the data consisted of job description, company name, salary, city,
 
 The motivation for this project is to visualize where data science jobs are in the United States as well as how much they pay.  
 
-The libraries needed in order to run this shiny app are  
+Load the following libraries and include the last line; run in RStudo:
 
     library(shiny)
     library(zipcode)
@@ -24,6 +24,8 @@ The libraries needed in order to run this shiny app are
     library(maptools)
     library(randomForest)
     gpclibPermit()
+    shiny::runGitHub("msan622", "mobbSF", subdir = "final-project")
+    
 
 ----
 
